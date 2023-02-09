@@ -1,0 +1,195 @@
+<html lang="en">
+<head>
+    <title>Autoservis</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</head>
+<body class="p-3 mb-2 bg-secondary text-dark">
+    <header>
+      <div class="text-center">
+        <nav class="navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <h1>Autoservis</h1>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="row">
+        <div class="col-2">
+          <img src="images/image3.png" alt="" class="img-fluid">
+          <form>
+            <label>ZADAVANI AUTA</label><br>
+            <button id="nvm">Vypis aut</button><br>
+            <label for="rok">Rok vyroby:</label><br>
+            <input type="text" id="rok" name="rok"><br>
+            <label for="znacka">Znacka:</label><br>
+            <input type="text" id="znacka" name="znacka"><br>
+            <label for="model">Model:</label><br>
+            <input type="text" id="model" name="model"><br>
+            <label for="km">Najete kilometry:</label><br>
+            <input type="text" id="km" name="km"><br><br>
+            <input type="submit" id="dontknow" value="Pridej auto">
+            <input type="submit" id="dontknow2" value="Smaz auto">
+          </form> 
+        </div>
+        <div class="col-8 text-center">
+          <div class="row">
+            <div class="container col-6">
+              <div id="carouselExampleControlsx" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/car4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/car5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+  
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        Car info
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
+                      aria-labelledby="panelsStayOpen-headingOne">
+                      <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa dolor magni iste minima
+                          blanditiis tempore sed non similique labore sequi, libero illo vel totam deserunt possimus
+                          pariatur id ratione corporis!
+                          Nemo, dolorem. Similique labore numquam, mollitia dolor beatae saepe voluptatibus molestiae,
+                          explicabo magnam deleniti fuga reiciendis quos qui, adipisci error in eos nulla. Labore, ut eum
+                          neque doloremque aut dolores.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsx"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsx"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="container col-6">
+              <div id="carouselExampleControlss" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/car1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/car0.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+  
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        Car info
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                      aria-labelledby="panelsStayOpen-headingTwo">
+                      <div class="accordion-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus culpa quo blanditiis
+                          ipsam perspiciatis animi obcaecati eaque fugiat ut quaerat corrupti repellat reiciendis, ex
+                          sequi consequuntur adipisci laboriosam vitae distinctio.
+                          Ratione aliquid deleniti quaerat? Odio quibusdam voluptatem sequi quae voluptatibus dolorem
+                          laudantium dicta. Facere in voluptatibus numquam laudantium molestiae eligendi vel magnam cum.
+                          Nobis accusamus corrupti quam et in velit.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlss"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlss"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <img src="images/image2.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </main>
+    <footer>
+  
+    </footer>
+  </body>
+    <script>
+        class Auto {
+            rok_vyroby;
+            znacka;
+            model;
+            kilometry;
+
+            constructor (rok_vyroby,znacka,model,kilometry) {
+                this.rok_vyroby = rok_vyroby;
+                this.znacka = znacka;
+                this.model = model;
+                this.kilometry = kilometry;
+            }            
+        }
+
+
+
+        class Autoservis {
+            auta = [];
+            nazev;
+
+            vratAuta() {
+                this.auta.forEach(x => {
+                    console.log(x);
+                });
+            } 
+            
+            pridejAuto(rok, znac, mod, km) {
+                autoservis.auta.push(new Auto(rok, znac, mod, km))
+            }
+
+            smazAuto() {
+                autoservis.auta.pop()
+            }  
+        }
+
+        var button =  document.getElementById('dontknow');
+        var button2 =  document.getElementById('dontknow2');
+        //button.addEventListener("click", pridejAuto())
+        //button2.addEventListener("click", smazAuto())
+
+        let autoservis = new Autoservis();
+        autoservis.pridejAuto(2020, "skoda", "kodiaq", 1000);
+        autoservis.pridejAuto(2010, "fiat", "multipla", 95000);
+        autoservis.vratAuta();
+        autoservis.smazAuto();
+        autoservis.vratAuta();
+    </script>
+</html>
